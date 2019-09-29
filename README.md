@@ -28,31 +28,7 @@ public class Userdata2 {
     JTextField username=newJTextField();
     //username.setColumns(10);
     name.setColumns(20);
-    JButton submit=new JButton("Submit");
-    mypanel.add(namelabel);
-    mypanel.add(name);
-        PopupMenu passwordlabel = null;
-    mypanel.add(passwordlabel);
-        PopupMenu password = null;
-    mypanel.add(password);
-    password.setColumns(10);
-    mypanel.add(submit);
-        PopupMenu mypanel12;
-    myframe.add(mypanel12)=new JPanel();
-    myframe.add(mypanel);
-    JButton login=new JButton("LOGIN");
-    JButton clear=new JButton("CLEAR");
-    myframe.setSize(800,400);
-    myframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    myframe.setVisible(true);
-    
-   /* mybutton.addActionListener(new ActionListener)(){
-        int count=0
-                @Override
-                public*/
-        
-    }
-
+   
     private static JTextField newJTextField() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
